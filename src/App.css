@@ -1,10 +1,66 @@
-.App {
+.center{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+span.error {
+  color: red;
+  margin-left: 35%;
+  display: block;
+}
+
+.table-button{
+  margin:10px;
+}
+.block{
+  display: block;
+}
+img{
+    width: 12%;
+    position: absolute;
+    height: 50px
+}
+.nav-div{
+  background-color: skyblue;
+}
+.nav-ul li{
+  display: inline-block;
+  padding: 15px;
+}
+ul.nav-ul {
+  margin-left: 141px;
+}
+.nav-ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color:white;
+}
+.left{
+  text-align: right;
+}
+
+footer{
+  position: absolute;
+  bottom: -74px;
+  text-align: center;
+  width: 100%;
+  background-color: skyblue;
+}
+
+input {
+  display: block;
+  padding: 10px;
+  border: 1px solid skyblue;
+  margin: auto;
+  margin-bottom: 16px;
+  width: 28%;
+}
+
+button {
+  color: #fff;
+  background: skyblue;
+  padding: 13px;
+  border: none;
+  border-radius: 8px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
