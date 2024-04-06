@@ -55,6 +55,16 @@ app.delete('/product/:id', async (req, res)=>{
     res.send(result);
 });
 
+//get single api list
+app.get('/product/:id', async (req, res)=>{
+    let result = await Product.findOne({_id:req.params.id});
+    if(result){
+        res.send(result);
+    }else{
+        res.send({result:'Request product not found.'});
+    }
+});
+
 app.listen(5000, () => {
     console.warn('app is listning at port 5000');
 })
